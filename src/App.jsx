@@ -7,10 +7,10 @@ const App = () => {
   const { account, provider, connectWallet, isWalletInstalled } = useWallet();
 
   return (
-    <div className="flex flex-col justify-center align-middle md:max-w-[80%] my-auto mx-auto">
+    <div className="flex flex-col justify-center bg-black  md:max-w-[80%] my-auto mx-auto">
       {!account && isWalletInstalled ? (
         <div className="flex flex-col justify-center align-middle md:max-w-[80%] my-auto mx-auto">
-          <p className="text-center text-gray-600 mt-16 ">
+          <p className="text-center text-white mt-16 ">
             Connect your prefered wallet to get started. <br />
           </p>
 
@@ -20,7 +20,7 @@ const App = () => {
           >
             Connect Your Wallet
           </button>
-          <p className="text-center text-blue-300">
+          <p className="text-center text-white">
             Verify that you are logged into the intended MetaMask account{" "}
           </p>
         </div>
