@@ -30,7 +30,7 @@ const SendETH = ({ provider, account }) => {
 
   return (
     <div className=" flex flex-col align-middle text-center mx-auto bg-gray-200 rounded-lg max-w-[90%] py-7 px-4 ">
-      <h2 className=" text-xl font-bold text-purple-800">
+      <h2 className=" text-xl font-bold text-blue-800">
         Send Ethereum (Sepolia)
       </h2>
 

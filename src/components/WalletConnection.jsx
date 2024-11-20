@@ -10,7 +10,7 @@ const WalletConnection = ({ connectWallet, account }) => {
       ) : (
         <button
           onClick={connectWallet}
-          className="bg-purple-500 text-white py-2 px-4 rounded"
+          className="bg-blue-500 text-white py-2 px-4 rounded"
         >
           Connect Your Wallet
         </button>

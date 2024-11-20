@@ -42,7 +42,7 @@ const Voting = ({ provider, account }) => {
       </select>
 
       {loading ? (
-        <button disabled className="bg-purple-500 text-white py-2 px-4 rounded">
+        <button disabled className="bg-blue-500 text-white py-2 px-4 rounded">
           In progress...
         </button>
       ) : (
