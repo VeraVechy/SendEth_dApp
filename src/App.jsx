@@ -20,8 +20,8 @@ const App = () => {
           >
             Connect Your Wallet
           </button>
-          <p className="text-center text-red-600">
-            Verify that you are logged into the intended MetaMask account S{" "}
+          <p className="text-center text-blue-300">
+            Verify that you are logged into the intended MetaMask account{" "}
           </p>
         </div>
       ) : (
